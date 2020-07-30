@@ -1,67 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-  <link rel="stylesheet" href="CSS/stylesheet.css">
-  <link rel="stylesheet" href="CSS/responsive.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="CSS/stylesheet.css">
+    <link rel="stylesheet" href="CSS/responsive.css">
 </head>
 <body>
-  <div class="top-nav">
-    <div class="container">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#"><img src="image/cuda_logo.png" alt=""></a>
-        
-        <div id="menu-bar1" class="menu-bar menu-bar1 "><img src="image/menu-bar.png" alt=""></div>
-        <div id="menu-bar2" class="menu-bar menu-bar2 "><img src="image/menu-bar.png" alt=""></div>
-
-        <div class="navbar-items" id="navbarNavAltMarkup">
-          
-          <div  class="navbar-nav">
-            <a class="nav-item nav-link" href="#">Home</a>
-            <a class="nav-item nav-link" href="#">Service</a>
-            <a class="nav-item nav-link" href="#">team</a>
-            <a class="nav-item nav-link" href="#">skill</a>
-            <a class="nav-item nav-link" href="#">portfolio</a>
-            <a class="nav-item nav-link" href="#">testimonial</a>
-            <a class="nav-item nav-link" href="#">contact</a>
+    <div class="top-nav">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand p-0" href="#"><img class="cuda-logo" src="image/cuda_logo.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-item nav-link" href="#">Home</a>
+              <a class="nav-item nav-link" href="#">service</a>
+              <a class="nav-item nav-link" href="#">team</a>
+              <a class="nav-item nav-link" href="#">skill</a>
+              <a class="nav-item nav-link" href="#">portfolio</a>
+              <a class="nav-item nav-link" href="#">testimonial</a>
+              <a class="nav-item nav-link" href="#">contact</a>
+            </div>
           </div>
-        </div>
-        
-      </nav>
+        </nav>
+      </div>
     </div>
-  </div>
-
-  <div id="nav-items">
-    <a class="nav-link hidden-nav" href="#">Home</a>
-    <a class="nav-link hidden-nav" href="#">Service</a>
-    <a class="nav-link hidden-nav" href="#">team</a>
-    <a class="nav-link hidden-nav" href="#">skill</a>
-    <a class="nav-link hidden-nav" href="#">portfolio</a>
-    <a class="nav-link hidden-nav" href="#">testimonial</a>
-    <a class="nav-link hidden-nav" href="#">contact</a>
-  </div>
 
 
-
-
-
-
-  <script>
-    document.getElementById('menu-bar1').addEventListener('click', function(){
-      document.getElementById('nav-items').style.height = "256px";
-      document.getElementById('menu-bar1').style.display = "none";
-      document.getElementById('menu-bar2').style.display = "block";
-    })
-
-    document.getElementById('menu-bar2').addEventListener('click', function(){
-      document.getElementById('nav-items').style.height = "0";
-      document.getElementById('menu-bar1').style.display = "block";
-      document.getElementById('menu-bar2').style.display = "none";
-    })
-  </script>
-              
+    <header>
+      <div class="container">
+        <h1 class="d-flex justify-content-center header-h1">Hi there! We are the new kids on the blockand we build awesome websites and mobile apps.</h1>
+        <button class="btn btn-info d-flex m-auto">Hire Me!</button>
+      </div>
+    </header>
 </body>
 </html>
