@@ -1,27 +1,52 @@
-@media (max-width: 992px) {
-    .navbar-nav {
-        display: none;
+@media(max-width:1024px) {
+    .header-h1 {
+        font-size: 30px;
+        padding-top: 150px;
     }
 
-    .menu-bar1 {
-        display: block;
+    header {
+        height: 500px;
+    }
+
+    .cuda-logo {
+        width: 85px;
+    }
+
+    .nav-item {
+        padding: 5px 15px;
+        font-size: 13px;
     }
 }
 
+@media(max-width:991px) {
+    .header-h1 {
+        font-size: 30px;
+        padding-top: 150px;
+    }
 
-@media (max-width: 768px) {
-
+    header {
+        height: 500px;
+    }
 }
 
+@media(max-width:768px) {
+    .header-h1 {
+        font-size: 30px;
+        padding-top: 150px;
+    }
 
-
-@media (max-width: 576px) {
-
+    header {
+        height: 500px;
+    }
 }
 
+@media(max-width:415px) {
+    .header-h1 {
+        font-size: 25px;
+        padding-top: 150px;
+    }
 
-
-
-
-
-
+    header {
+        height: 500px;
+    }
+}
