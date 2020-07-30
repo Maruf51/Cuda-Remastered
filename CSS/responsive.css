@@ -1,0 +1,27 @@
+@media (max-width: 992px) {
+    .navbar-nav {
+        display: none;
+    }
+
+    .menu-bar1 {
+        display: block;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+}
+
+
+
+@media (max-width: 576px) {
+
+}
+
+
+
+
+
+
+

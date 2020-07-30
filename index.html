@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="CSS/stylesheet.css">
+  <link rel="stylesheet" href="CSS/responsive.css">
+</head>
+<body>
+  <div class="top-nav">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"><img src="image/cuda_logo.png" alt=""></a>
+        
+        <div id="menu-bar1" class="menu-bar menu-bar1 "><img src="image/menu-bar.png" alt=""></div>
+        <div id="menu-bar2" class="menu-bar menu-bar2 "><img src="image/menu-bar.png" alt=""></div>
+
+        <div class="navbar-items" id="navbarNavAltMarkup">
+          
+          <div  class="navbar-nav">
+            <a class="nav-item nav-link" href="#">Home</a>
+            <a class="nav-item nav-link" href="#">Service</a>
+            <a class="nav-item nav-link" href="#">team</a>
+            <a class="nav-item nav-link" href="#">skill</a>
+            <a class="nav-item nav-link" href="#">portfolio</a>
+            <a class="nav-item nav-link" href="#">testimonial</a>
+            <a class="nav-item nav-link" href="#">contact</a>
+          </div>
+        </div>
+        
+      </nav>
+    </div>
+  </div>
+
+  <div id="nav-items">
+    <a class="nav-link hidden-nav" href="#">Home</a>
+    <a class="nav-link hidden-nav" href="#">Service</a>
+    <a class="nav-link hidden-nav" href="#">team</a>
+    <a class="nav-link hidden-nav" href="#">skill</a>
+    <a class="nav-link hidden-nav" href="#">portfolio</a>
+    <a class="nav-link hidden-nav" href="#">testimonial</a>
+    <a class="nav-link hidden-nav" href="#">contact</a>
+  </div>
+
+
+
+
+
+
+  <script>
+    document.getElementById('menu-bar1').addEventListener('click', function(){
+      document.getElementById('nav-items').style.height = "256px";
+      document.getElementById('menu-bar1').style.display = "none";
+      document.getElementById('menu-bar2').style.display = "block";
+    })
+
+    document.getElementById('menu-bar2').addEventListener('click', function(){
+      document.getElementById('nav-items').style.height = "0";
+      document.getElementById('menu-bar1').style.display = "block";
+      document.getElementById('menu-bar2').style.display = "none";
+    })
+  </script>
+              
+</body>
+</html>
