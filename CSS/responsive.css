@@ -37,6 +37,15 @@
     p {
         font-size: 13px;
     }
+
+    .team-name {
+        font-size: 19px;
+    }
+
+    .skill-percent {
+        width: 160px;
+        height: 160px;
+    }
 }
 
 @media(max-width:991px) {
@@ -71,6 +80,10 @@
     .section-h1 {
         font-size: 27px;
     }
+
+    .skill-name {
+        font-size: 16px !important;
+    
 }
 
 @media(max-width:768px) {
@@ -120,6 +133,10 @@
     .team-row {
         margin-top: 60px;
         padding-bottom: 60px;
+    }
+
+    .last-2-percent {
+        margin-top: 55px;
     }
 }
 
@@ -178,5 +195,13 @@
 
     .team-row p {
         font-size: 12px;
+    }
+
+    .skill-percent {
+        margin-top: 50px;
+    }
+
+    .skill-name {
+        font-size: 15px !important;
     }
 }

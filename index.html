@@ -21,7 +21,7 @@
       <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light">
           <a class="navbar-brand p-0" href="#"><img class="cuda-logo" src="image/cuda_logo.png" alt=""></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <button id="menu-bar" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
@@ -29,7 +29,7 @@
               <a class="nav-item nav-link" href="#">Home</a>
               <a class="nav-item nav-link" href="#service">service</a>
               <a class="nav-item nav-link" href="#team">team</a>
-              <a class="nav-item nav-link" href="#">skill</a>
+              <a class="nav-item nav-link" href="#skill">skill</a>
               <a class="nav-item nav-link" href="#">portfolio</a>
               <a class="nav-item nav-link" href="#">testimonial</a>
               <a class="nav-item nav-link" href="#">contact</a>
@@ -108,5 +108,39 @@
         </div>
       </div>
     </section>
+
+    <section id="skill" class="section4">
+      <div class="container">
+        <h1 class="section-h1 section-skill-h1">we got skills!</h1>
+        <p class="section-all-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <div class="row d-flex justify-content-between skill-section">
+          <div class="col-md-3">
+            <h1 class="skill-percent d-flex justify-content-center align-items-center ninety">90%</h1>
+            <h3 class="team-name skill-name">Web-Design</h3>
+          </div>
+          <div class="col-md-3">
+            <h1 class="skill-percent d-flex justify-content-center align-items-center seventy-five">75%</h1>
+            <h3 class="team-name skill-name">html/css</h3>
+          </div>
+          <div class="col-md-3">
+            <h1 class="skill-percent d-flex justify-content-center align-items-center seventy last-2-percent">70%</h1>
+            <h3 class="team-name skill-name">graphic-design</h3>
+          </div>
+          <div class="col-md-3">
+            <h1 class="skill-percent d-flex justify-content-center align-items-center eighty-five last-2-percent">85%</h1>
+            <h3 class="team-name skill-name">ui/ux</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      document.getElementById('navbarNavAltMarkup').addEventListener('click', function(){
+        document.getElementById("menu-bar").classList.add('collapsed');
+        document.getElementById("navbarNavAltMarkup").classList.remove('show');
+        document.getElementById("menu-bar").removeAttribute("aria-expanded"); 
+        document.getElementById("menu-bar").setAttribute("aria-expanded", false); 
+      })
+    </script>
 </body>
 </html>
