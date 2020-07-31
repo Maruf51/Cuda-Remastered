@@ -1,9 +1,16 @@
+* {
+    scroll-behavior: smooth;
+}
+
 body {
     color: white;
 }
 
 .top-nav {
     background-color: #875598;
+    position: sticky;
+    top: 0;
+    z-index: 9999999;
 }
 
 .navbar {
@@ -46,4 +53,60 @@ h1 {
 .btn {
     margin-top: 50px !important;
     padding: 7px 30px !important;
+}
+
+.section2 {
+    background: linear-gradient(rgba(23, 194, 164, .9), rgba(23, 194, 164, .9)), url(../image/section_2_bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    box-shadow: inset 0 2px 5px #273a71;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 760px;
+}
+
+.section-h1 {
+    text-transform: uppercase;
+    padding-top: 100px;
+}
+
+.section-service-h1::after {
+    content: "";
+    background-color: #14a58c;
+    padding: 3px;
+    display: block;
+    width: 75px;
+    margin: 20px auto;
+}
+
+.section-all-p {
+    width: 580px;
+    text-align: center;
+    margin: auto;
+    font-size: 17px;
+}
+
+.row {
+    margin-top: 100px;
+}
+
+.col-md-3 {
+    /* border: 1px solid black; */
+    max-width: 21% !important;
+    text-align: center;
+}
+
+.srvice-img {
+    margin-top: 20px;
+}
+
+.service-p {
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+h2 {
+    margin-top: 15px;
 }
