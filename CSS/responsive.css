@@ -46,6 +46,18 @@
         width: 160px;
         height: 160px;
     }
+
+    .port-btn {
+        padding: 5px 25px !important;
+    }
+
+    .portfolio-items {
+        max-width: 40% !important;
+    }
+
+    .portfolio-h4 {
+        font-size: 14px;
+    }
 }
 
 @media(max-width:991px) {
@@ -59,7 +71,7 @@
     }
 
     .col-md-3 {
-        min-width: 23% !important;
+        max-width: 23% !important;
     }
     .team-name {
         font-size: 20px;
@@ -83,7 +95,11 @@
 
     .skill-name {
         font-size: 16px !important;
-    
+    }
+
+    .portfolio-items {
+        max-width: 40% !important;
+    }
 }
 
 @media(max-width:768px) {
@@ -105,7 +121,7 @@
     }
 
     .col-md-3 {
-        min-width: 45% !important;
+        max-width: 45% !important;
     }
 
     .last-2-image {
@@ -138,6 +154,15 @@
     .last-2-percent {
         margin-top: 55px;
     }
+
+    .portfolio-items {
+        max-width: 70% !important;
+        margin-top: 50px;
+    }
+
+    .port-btn {
+        padding: 4px 20px !important;
+    }
 }
 
 @media(max-width:415px) {
@@ -151,7 +176,7 @@
     }
 
     .col-md-3 {
-        min-width: 90% !important;
+        max-width: 90% !important;
         margin: auto;
     }
 
@@ -203,5 +228,14 @@
 
     .skill-name {
         font-size: 15px !important;
+    }
+
+    .portfolio-h4 {
+        font-size: 12px;
+    }
+
+    .port-btn {
+        padding: 4px 15px !important;
+        margin: 0;
     }
 }
