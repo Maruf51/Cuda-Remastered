@@ -31,7 +31,7 @@
               <a class="nav-item nav-link" href="#team">team</a>
               <a class="nav-item nav-link" href="#skill">skill</a>
               <a class="nav-item nav-link" href="#portfolio">portfolio</a>
-              <a class="nav-item nav-link" href="#">testimonial</a>
+              <a class="nav-item nav-link" href="#testimonial">testimonial</a>
               <a class="nav-item nav-link" href="#">contact</a>
             </div>
           </div>
@@ -162,6 +162,56 @@
             <h4 class="portfolio-h4">BLOG / MAGAZINE FLAT UI KIT</h4>
           </div>
         </div>
+        <button class="btn btn-danger load-more-btn">Load More Projects</button>
+      </div>
+    </section>
+
+    <section id="testimonial" class="section6">
+      <div class="container">
+        <h1 class="section-h1 section-testimonial-h1">What people say about us</h1>
+        <p class="section-all-p">Our Client Love us!</p>
+      </div>
+      <div class="row d-flex justify-content-between container m-auto testimonial-row">
+        <div class="message-items col-md-6 d-flex justify-content-between">
+          <div class="image-area-testi col-md-3">
+            <img class="clients" src="image/client_1.jpg" alt="">
+          </div>
+          <div class="text-area-testi col-md-9">
+            <p class="comment-p">“Nullam dapibus blandit orci, viverra gravida dui lobortis eget. Maecenas fringilla urna eu nisl scelerisque.”</p>
+            <h2 class="clients-name">CHANEL IMAN</h2>
+            <h5 class="clients-position">CEO of Pinterest</h5>
+          </div>
+        </div>
+        <div class="message-items col-md-6 d-flex justify-content-between">
+          <div class="image-area-testi col-md-3">
+            <img class="clients" src="image/client_2.jpg" alt="">
+          </div>
+          <div class="text-area-testi col-md-9">
+            <p class="comment-p">“Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta.”</p>
+            <h2 class="clients-name">ADRIANA LIMA</h2>
+            <h5 class="clients-position">Founder of Instagram</h5>
+          </div>
+        </div>
+        <div class="message-items col-md-6 d-flex justify-content-between last-2-comment">
+          <div class="image-area-testi col-md-3">
+            <img class="clients" src="image/client_3.jpg" alt="">
+          </div>
+          <div class="text-area-testi col-md-9">
+            <p class="comment-p">“Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta.”</p>
+            <h2 class="clients-name">ANNE HATHAWAY</h2>
+            <h5 class="clients-position">Lead Designer at Behance</h5>
+          </div>
+        </div>
+        <div class="message-items col-md-6 d-flex justify-content-between last-2-comment">
+          <div class="image-area-testi col-md-3">
+            <img class="clients" src="image/client_4.jpg" alt="">
+          </div>
+          <div class="text-area-testi col-md-9">
+            <p class="comment-p">“Phasellus non purus vel arcu tempor commodo. Fusce semper, purus vel luctus molestie, risus sem cursus neque.”</p>
+            <h2 class="clients-name">EMMA STONE</h2>
+            <h5 class="clients-position">Co-Founder of Shazam</h5>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -182,17 +232,17 @@
       })
 
       document.getElementById('web').addEventListener('click', function(){
-        document.getElementById('first-port').style.display = "block";
+        document.getElementById('first-port').style.display = "none";
         document.getElementById('second-port').style.display = "block";
         document.getElementById('third-port').style.display = "block";
-        document.getElementById('fourth-port').style.display = "none";
+        document.getElementById('fourth-port').style.display = "block";
       })
 
       document.getElementById('apps').addEventListener('click', function(){
         document.getElementById('first-port').style.display = "none";
-        document.getElementById('second-port').style.display = "block";
+        document.getElementById('second-port').style.display = "none";
         document.getElementById('third-port').style.display = "block";
-        document.getElementById('fourth-port').style.display = "none";
+        document.getElementById('fourth-port').style.display = "block";
       })
 
       document.getElementById('icon').addEventListener('click', function(){
