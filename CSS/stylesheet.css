@@ -263,5 +263,69 @@ h2 {
 
 .portfolio-row {
     margin-top: 0;
-    padding-bottom: 100px;
+    padding-bottom: 0 !important;
+}
+
+.load-more-btn {
+    margin: 80px auto 90px auto !important;
+}
+
+.section6 {
+    width: 100%;
+    height: auto;
+    background: linear-gradient(rgba(215, 70, 128, .9), rgba(215, 70, 128, .9)), url(../image/section_6_bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    box-shadow: inset 0 2px 5px #273a71;
+    margin: 0;
+    color: #fff;
+}
+
+.section-testimonial-h1::after {
+    background: #b73c6d;
+    content: "";
+    height: 5px;
+    display: block;
+    width: 80px;
+    margin: auto;
+    margin-top: 16px;
+}
+
+.clients {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+
+.testimonial-row {
+    margin-top: 65px !important;
+    padding-bottom: 75px !important;
+}
+
+.comment-p {
+    font-style: italic;
+    margin: 0;
+}
+
+.clients-name {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 7px 0 4px 0;
+}
+
+.clients-position {
+    font-size: 11px;
+    color: #fd9;
+}
+
+.last-2-comment {
+    margin-top: 60px;
+}
+
+.image-area-testi.col-md-3 {
+    margin-left: 20px;
+}
+
+.text-area-testi.col-md-9 {
+    padding-left: 0;
 }
