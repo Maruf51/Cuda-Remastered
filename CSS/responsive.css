@@ -71,6 +71,22 @@
     .text-area-testi.col-md-9 {
         padding-left: 20px;
     }
+
+    .message-btn {
+        padding: 5px 30px !important;
+    }
+
+    input {
+        padding: 7px 0 7px 12px;
+    }
+
+    textarea {
+        padding: 7px 0 7px 12px;
+    }
+
+    .footer-link a {
+        font-size: 13px;
+    }
 }
 
 @media(max-width:991px) {
@@ -124,6 +140,22 @@
     
     .text-area-testi.col-md-9 {
         padding-left: 20px;
+    }
+
+    input {
+        width: 335px;
+    }
+
+    textarea {
+        width: 685px;
+    }
+
+    .form {
+        margin-bottom: 70px;
+    }
+
+    .section-contact-h1 {
+        padding-top: 75px;
     }
 }
 
@@ -207,6 +239,24 @@
 
     .testimonial-row {
         margin-top: 20px !important;
+    }
+
+    .name-input {
+        margin-right: 0;
+    }
+    
+    .email-input {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    textarea {
+        width: 335px;
+        height: 100px;
+    }
+
+    .footer-link a {
+        font-size: 11px;
     }
 }
 
@@ -302,5 +352,17 @@
 
     .testimonial-row {
         margin-top: 10px !important;
+    }
+
+    input {
+        width: 95%;
+    }
+
+    textarea {
+        width: 95%;
+    }
+
+    .hidden {
+        display: none;
     }
 }
