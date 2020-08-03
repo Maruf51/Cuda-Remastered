@@ -77,10 +77,11 @@ h1 {
 .section-service-h1::after {
     content: "";
     background-color: #14a58c;
-    padding: 3px;
+    height: 5px;
     display: block;
     width: 75px;
-    margin: 20px auto;
+    margin: auto;
+    margin-top: 16px;
 }
 
 .section-all-p {
@@ -128,10 +129,11 @@ h2 {
 .section-team-h1::after {
     content: "";
     background-color: #c8d9e5;
-    padding: 3px;
+    height: 5px;
     display: block;
     width: 75px;
-    margin: 20px auto;
+    margin: auto;
+    margin-top: 16px;
 }
 
 .team-img {
@@ -172,10 +174,11 @@ h2 {
 .section-skill-h1::after {
     content: "";
     background-color: #dfe8ed;
-    padding: 3px;
+    height: 5px;
     display: block;
     width: 75px;
-    margin: 20px auto;
+    margin: auto;
+    margin-top: 16px;
 }
 
 .skill-name {
@@ -231,10 +234,11 @@ h2 {
 .section-portfolio-h1::after {
     content: "";
     background-color: #e5c37f;
-    padding: 3px;
+    height: 5px;
     display: block;
     width: 75px;
-    margin: 20px auto;
+    margin: auto;
+    margin-top: 16px;
 }
 
 .port-btn {
@@ -328,4 +332,113 @@ h2 {
 
 .text-area-testi.col-md-9 {
     padding-left: 0;
+}
+
+.section7 {
+    width: 100%;
+    height: auto;
+    background: linear-gradient(rgba(60, 84, 153, .9), rgba(60, 84, 153, .9)), url(../image/section_7_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    border-bottom: .1rem solid #b1b1b1;
+    box-shadow: inset 0 3px 5px #273a71;
+}
+
+.section-contact-h1::after {
+    background: #273a71;
+    content: "";
+    height: 5px;
+    display: block;
+    width: 80px;
+    margin: auto;
+    margin-top: 16px;
+}
+
+input {
+    background-color: #273a71;
+}
+
+.input-form {
+    margin-top: 50px;
+    text-align: center;
+}
+
+input {
+    width: 420px;
+    border: none;
+    outline: none;
+    font-size: 12px;
+    padding: 12px 0 11px 15px;
+    color: white;
+    border-radius: 4px;
+}
+
+input::placeholder {
+    color: white;
+    text-transform: capitalize;
+}
+
+.name-input {
+    margin-right: 5px;
+    text-transform: capitalize;
+}
+
+.email-input {
+    margin-left: 5px;
+    text-transform: lowercase;
+}
+
+textarea {
+    width: 853px;
+    border: 0;
+    background-color: #273a71;
+    outline: none;
+    border-radius: 4px;
+    font-size: 12px;
+    padding: 12px 0 11px 15px;
+    height: 150px;
+    text-transform: capitalize;
+    color: white;
+}
+
+.comment-form {
+    text-align: center;
+    margin-top: 25px;
+}
+
+textarea::placeholder {
+    color: white;
+}
+
+.form {
+    margin-bottom: 100px;
+}
+
+.message-button {
+    text-align: center;
+}
+
+.message-btn {
+    margin-top: 30px !important;
+    padding: 9px 40px !important;
+}
+
+footer {
+    background: #344b8e;
+}
+
+.footer-link a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-link a:hover {
+    text-decoration: underline;
+    color: #b3e9ff;
+}
+
+.footer-link {
+    padding: 15px 0;
 }
