@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cuda Remastered</title>
+    <link rel="shortcut icon" href="image/shortcut.png" type="image/x-icon">
 
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
@@ -16,28 +17,52 @@
     <link rel="stylesheet" href="CSS/stylesheet.css">
     <link rel="stylesheet" href="CSS/responsive.css">
 </head>
-<body>
+<body data-spy="scroll" data-target="#navbar-example2" data-offset="50">
     <div class="top-nav">
       <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light">
-          <a class="navbar-brand p-0" href="#"><img class="cuda-logo" src="image/cuda_logo.png" alt=""></a>
-          <button id="menu-bar" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <nav id="navbar-example2" class="navbar navbar-light navbar-expand-lg">
+          <img class="logo" src="image/cuda_logo.png" alt="">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-item nav-link" href="#">Home</a>
-              <a class="nav-item nav-link" href="#service">service</a>
-              <a class="nav-item nav-link" href="#team">team</a>
-              <a class="nav-item nav-link" href="#skill">skill</a>
-              <a class="nav-item nav-link" href="#portfolio">portfolio</a>
-              <a class="nav-item nav-link" href="#testimonial">testimonial</a>
-              <a class="nav-item nav-link" href="#contact">contact</a>
-            </div>
-          </div>
+          <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="nav nav-pills navbar-nav d-flex justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#service">service</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#team">team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skill">skill</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonial">testimonial</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">contact</a>
+            </li>
+          </ul>
+        </div>
         </nav>
       </div>
     </div>
+
+
+
+
+
+
+
+
+
+    
 
 
     <header id="home">
@@ -115,19 +140,59 @@
         <p class="section-all-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         <div class="row d-flex justify-content-between skill-section">
           <div class="col-md-3">
-            <h1 class="skill-percent d-flex justify-content-center align-items-center ninety">90%</h1>
-            <h3 class="team-name skill-name">Web-Design</h3>
+            <div class="circle-wrap">
+              <div class="circle">
+                <div class="mask full first-full">
+                  <div class="fill first-percent"></div>
+                </div>
+                <div class="mask half">
+                  <div class="fill first-percent"></div>
+                </div>
+                <div class="inside-circle"> 90% </div>
+              </div>
+            </div>
+            <h3 class="team-name skill-name first-2-percent-name">Web-Design</h3>
           </div>
           <div class="col-md-3">
-            <h1 class="skill-percent d-flex justify-content-center align-items-center seventy-five">75%</h1>
-            <h3 class="team-name skill-name">html/css</h3>
+            <div class="circle-wrap">
+              <div class="circle">
+                <div class="mask full second-full">
+                  <div class="fill second-percent"></div>
+                </div>
+                <div class="mask half">
+                  <div class="fill second-percent"></div>
+                </div>
+                <div class="inside-circle"> 75% </div>
+              </div>
+            </div>
+            <h3 class="team-name skill-name first-2-percent-name">html/css</h3>
           </div>
           <div class="col-md-3">
-            <h1 class="skill-percent d-flex justify-content-center align-items-center seventy last-2-percent">70%</h1>
+            <div class="circle-wrap">
+              <div class="circle">
+                <div class="mask full third-full">
+                  <div class="fill third-percent"></div>
+                </div>
+                <div class="mask half">
+                  <div class="fill third-percent"></div>
+                </div>
+                <div class="inside-circle"> 70% </div>
+              </div>
+            </div>
             <h3 class="team-name skill-name">graphic-design</h3>
           </div>
           <div class="col-md-3">
-            <h1 class="skill-percent d-flex justify-content-center align-items-center eighty-five last-2-percent">85%</h1>
+            <div class="circle-wrap">
+              <div class="circle">
+                <div class="mask full fourth-full">
+                  <div class="fill fourth-percent"></div>
+                </div>
+                <div class="mask half">
+                  <div class="fill fourth-percent"></div>
+                </div>
+                <div class="inside-circle"> 85% </div>
+              </div>
+            </div>
             <h3 class="team-name skill-name">ui/ux</h3>
           </div>
         </div>
@@ -247,13 +312,6 @@
     </footer>
 
     <script>
-      document.getElementById('navbarNavAltMarkup').addEventListener('click', function(){
-        document.getElementById("menu-bar").classList.add('collapsed');
-        document.getElementById("navbarNavAltMarkup").classList.remove('show');
-        document.getElementById("menu-bar").removeAttribute("aria-expanded"); 
-        document.getElementById("menu-bar").setAttribute("aria-expanded", false); 
-      })
-
 
       document.getElementById('all').addEventListener('click', function(){
         document.getElementById('first-port').style.display = "block";
@@ -282,6 +340,8 @@
         document.getElementById('third-port').style.display = "none";
         document.getElementById('fourth-port').style.display = "block";
       })
+
+
     </script>
 </body>
 </html>

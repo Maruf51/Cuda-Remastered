@@ -8,13 +8,20 @@
         height: 500px;
     }
 
+    .navbar {
+        padding: 5px;
+    }
+
     .cuda-logo {
         width: 85px;
     }
 
     .nav-item {
-        padding: 5px 15px;
-        font-size: 13px;
+        font-size: 12px;
+    }
+
+    .logo {
+        height: 30px;
     }
 
     .section-h1 {
@@ -258,6 +265,10 @@
     .footer-link a {
         font-size: 11px;
     }
+
+    .first-2-percent-name {
+        margin-bottom: 70px;
+    }
 }
 
 @media(max-width:415px) {
@@ -365,4 +376,14 @@
     .hidden {
         display: none;
     }
+
+    .skill-name {
+        margin-bottom: 50px;
+    }
+
+    .skill-section {
+        margin-top: 60px;
+        padding-bottom: 35px;
+    }
 }
+
