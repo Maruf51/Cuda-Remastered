@@ -22,11 +22,11 @@
       <div class="container">
         <nav id="navbar-example2" class="navbar navbar-light navbar-expand-lg">
           <img class="logo" src="image/cuda_logo.png" alt="">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <button id="menu-bar" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="nav nav-pills navbar-nav d-flex justify-content-end">
+          <ul id="menu" class="nav nav-pills navbar-nav d-flex justify-content-end">
             <li class="nav-item">
               <a class="nav-link" href="#home">home</a>
             </li>
@@ -312,6 +312,13 @@
     </footer>
 
     <script>
+
+document.getElementById('menu').addEventListener('click', function(){
+        document.getElementById("menu-bar").classList.add('collapsed');
+        document.getElementById("menu-bar").removeAttribute("aria-expanded"); 
+        document.getElementById("menu-bar").setAttribute("aria-expanded", false); 
+        document.getElementById("navbarNav").classList.remove('show');
+      })
 
       document.getElementById('all').addEventListener('click', function(){
         document.getElementById('first-port').style.display = "block";
